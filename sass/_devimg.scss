@@ -1,0 +1,36 @@
+.img {
+    position: relative;
+    bottom: 60.25rem;
+    left: 6.5rem;
+
+    & img {
+        border-radius: 5px;
+        box-shadow: 14px 42px 92px -21px rgba(0, 0, 0, 0.44);
+    }
+
+}
+
+.slider {
+    background: white;
+    bottom: 63.6rem;
+    left: 13.5rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 5rem;
+    width: 15%;
+    border-radius: 4rem;
+}
+
+#slider-arrow-right {
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+#slider-arrow-left {
+    &:hover {
+        cursor: pointer;
+    }
+}

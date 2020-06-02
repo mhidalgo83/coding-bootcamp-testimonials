@@ -1,0 +1,59 @@
+.dev-testimonial {
+    margin-top: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3.2rem;
+    font-weight: 300;
+    margin: 3%;
+
+    &--text {
+        position: relative;
+        bottom: 20.2rem;
+        left: 9.2rem;
+        z-index: 20;
+        line-height: 1.4;
+    }
+
+    &--quote {
+        width: 110%;
+        margin-bottom: 6%;
+        padding-left: 3rem;
+    }
+
+    &--name {
+        font-size: 2rem;
+        font-weight: 700;
+        padding-left: 3rem;
+
+        & span {
+            color: lightgray;
+            font-weight: 500;
+        }
+    }
+
+    &--image {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+        margin-top: 5%;
+    }
+}
+
+.svg-bottom {
+    position: relative;
+    top: 8rem;
+    right: 15rem;
+}
+
+.svg-quotes {
+    position: relative;
+    left: 12.5rem;
+    top: 5rem;
+}
+
+.hidden {
+    display: none;
+}
